@@ -1,0 +1,88 @@
+/* Styles for desktop (large screens) */
+.desktop-interface {
+    /* Add styles for desktop interface */
+}
+
+/* Styles for mobile (small screens) */
+@media only screen and (max-width: 767px) {
+    /* Hide desktop interface on mobile */
+    .desktop-interface {
+        display: none;
+    }
+
+    /* Add styles for mobile interface */
+    .mobile-interface {
+        /* Add styles for mobile interface */
+    }
+}
+
+/* Buttons Styles */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Desktop Button Styles */
+<style>
+		.desktop-buton {
+            position: absolute;
+            top: 369%;
+            left: 83%;
+            transform: translate(-50%, -50%);
+		}	
+		.desktop-button {
+            position: absolute;
+            top: 369%;
+            left: 93%;
+            transform: translate(-50%, -50%);
+			}
+		.desktop-butto {
+            position: absolute;
+            top: 132%;
+            left: 28%;	
+            transform: translate(-50%, -50%);
+			}
+    </style>
+
+/* Mobile Button Styles */
+<style>
+		        body {
+            margin: 0;
+            padding: 0;
+            background-color: #FDF8EC;
+        }
+
+        .mobile-interface, {
+        }
+		.mobile-button {
+            position: absolute;
+            top: 639%;
+            left: 23%;
+            transform: translate(-50%, -50%);
+		}	
+		.mobile-buton {
+            position: absolute;
+            top: 639%;
+            left: 23%;
+            transform: translate(-50%, -50%);
+			}
+		.mobile-butto {
+            position: absolute;
+            top: 444%;
+            left: 30%;	
+            transform: translate(-50%, -50%);
+			}
+	</style>
+.mobile-button {
+    background-color: ;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+}
+
+}
